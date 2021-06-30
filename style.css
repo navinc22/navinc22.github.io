@@ -1,0 +1,42 @@
+body {
+    width: 720px;
+    margin: 0 auto;
+    background-color: #151515;
+    color: #FFF;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    border: 2px solid white;
+    border-radius: 5px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px white;
+}
+
+h2 {
+    text-shadow: 1px 1px 1px white;
+}
+
+img {
+    margin-left: 5px;
+    border: 2px solid black;
+    float: right;
+    border-radius: 5px;
+}
+
+p,
+ul {
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+
+a {
+    color: deepskyblue;
+}
+
+hr {
+    border: 1px solid white;
+}
