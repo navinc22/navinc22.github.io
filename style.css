@@ -1,5 +1,16 @@
+@media screen and (orientation: portrait) {
+    body {
+        max-width: 80%;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    body {
+        max-width: 50%;
+    }
+}
+
 body {
-    width: 720px;
     margin: 0 auto;
     background-color: #151515;
     color: #FFF;
