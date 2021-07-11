@@ -68,11 +68,6 @@ h2 {
 .footer {
     border: 1px dotted white;
     border-radius: 3px;
+    font-size: .5rem;
     text-align: center;
-}
-
-@media screen and (max-width: 800px) {
-    .footer {
-        font-size: .5rem;
-    }
 }
