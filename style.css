@@ -70,3 +70,9 @@ h2 {
     border-radius: 3px;
     text-align: center;
 }
+
+@media screen and (max-width: 800px) {
+    h2 {
+        font-size: 2em;
+    }
+}
