@@ -9,8 +9,9 @@ body {
     letter-spacing: 1px;
     width: 80%;
     max-width: 700px;
-    margin: 0 auto;
-    padding: 1em;
+    margin: auto;
+    padding: .2em 1em;
+    box-shadow: 1em 0em 2em #101010, -1em 0em 2em #101010;
 }
 
 p,
@@ -19,6 +20,7 @@ ul {
 }
 
 .intro h1 {
+    font-size: 2rem;
     text-align: center;
     line-height: 3rem;
     border: 1px solid white;
@@ -31,6 +33,7 @@ ul {
 }
 
 h2 {
+    font-size: 1.5rem;
     text-align: center;
     text-decoration: underline;
 }
@@ -59,10 +62,4 @@ h2 {
     border: 1px dotted white;
     border-radius: 3px;
     text-align: center;
-}
-
-@media screen and (min-width: 800px) {
-    body {
-        box-shadow: 1em 0em 2em #101010, -1em 0em 2em #101010;
-    }
 }
