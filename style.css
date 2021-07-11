@@ -54,5 +54,6 @@ hr {
 }
 
 .contcon {
-    width: 10%;
+    border-color: white;
+    width: 25px;
 }
