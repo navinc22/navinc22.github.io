@@ -1,10 +1,17 @@
+html {
+    background-image: url('assets/space.jpg');
+}
+
 body {
     background-color: #151515;
     color: #FFF;
-    line-height: 2;
+    line-height: 2rem;
     letter-spacing: 1px;
+    width: 60%;
     max-width: 700px;
     margin: 0 auto;
+    padding: 1em;
+    box-shadow: 1em 0em 2em #101010, -1em 0em 2em #101010;
 }
 
 p,
@@ -14,6 +21,7 @@ ul {
 
 .intro h1 {
     text-align: center;
+    line-height: 3rem;
     border: 1px solid white;
     border-radius: 3px;
 }
