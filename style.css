@@ -5,7 +5,7 @@ html {
 body {
     background-color: #151515;
     color: #FFF;
-    line-height: 2rem;
+    line-height: 2em;
     letter-spacing: .1rem;
     width: 90%;
     max-width: 700px;
@@ -22,7 +22,7 @@ ul {
 .intro h1 {
     font-size: 2rem;
     text-align: center;
-    line-height: 3rem;
+    line-height: 1.5em;
     border: 1px solid white;
     border-radius: 3px;
 }
@@ -72,7 +72,7 @@ h2 {
 
 @media screen and (max-width: 700px) {
     h1 {
-        font-size: 1.5em;
+        font-size: 1.5rem;
     }
 
     .footer {
