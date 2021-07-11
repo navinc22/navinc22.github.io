@@ -2,8 +2,14 @@ body {
     background-color: #222;
     color: #FFF;
     line-height: 2;
-    width: 90%;
+    letter-spacing: 1px;
+    max-width: 90%;
     margin: 0 auto;
+}
+
+p,
+ul {
+    font-family: sans-serif;
 }
 
 .intro h1 {
@@ -24,22 +30,23 @@ h2 {
 
 .contact ul {
     list-style-type: none;
-    text-align: center;
-    width: 700px;
-    padding-left: 50px;
-    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .contact li {
     display: inline-block;
-    width: 150px;
+    width: 20%;
 }
 
 .contact img {
-    width: 30px;
+    width: 25px;
     display: block;
     border: 1px solid white;
     border-radius: 5px;
+    margin: auto;
 }
 
 .footer {
