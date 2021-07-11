@@ -1,10 +1,11 @@
 body {
-    background-color: #222;
+    background-color: #151515;
     color: #FFF;
     line-height: 2;
     letter-spacing: 1px;
     max-width: 90%;
     margin: 0 auto;
+    font-size: 1em;
 }
 
 p,
@@ -37,16 +38,15 @@ h2 {
 }
 
 .contact li {
-    display: inline-block;
     width: 20%;
+    display: flex;
+    justify-content: center;
 }
 
 .contact img {
     width: 25px;
-    display: block;
     border: 1px solid white;
     border-radius: 5px;
-    margin: auto;
 }
 
 .footer {
