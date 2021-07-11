@@ -1,9 +1,10 @@
 html {
-    background-image: url('assets/space.jpg');
+    background-image: url('assets/bg.jpg');
 }
 
 body {
-    background-color: #151515;
+    background-color: #101010;
+    opacity: 95%;
     color: #FFF;
     line-height: 2em;
     letter-spacing: .1rem;
@@ -11,7 +12,7 @@ body {
     max-width: 700px;
     margin: auto;
     padding: .2em 1em;
-    box-shadow: 1em 0em 3em #101010, -1em 0em 3em #101010;
+    box-shadow: 5px 0px 10px #101010, -5px 0em 10px #101010;
 }
 
 p,
