@@ -32,7 +32,6 @@ ul {
     font-family: sans-serif;
     letter-spacing: 1px;
     line-height: 2;
-    padding: 0;
 }
 
 a {
@@ -41,6 +40,10 @@ a {
 
 hr {
     border: 1px solid white;
+}
+
+.skills {
+    padding-left: 20px;
 }
 
 .contact {
